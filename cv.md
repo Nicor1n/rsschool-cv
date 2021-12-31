@@ -21,3 +21,22 @@ I am a third-year student of Polessky State University. I am studying this cours
 
 * CSS
 *********
+### Code example:
+```
+static void Main(string[] args)
+        {
+            int sum=0;
+            Console.WriteLine("Enter number: ");
+            int x = Convert.ToInt32(Console.ReadLine());
+            x = Math.Abs(x);
+            int n = (int)Math.Log10(x) + 1;
+            while (n != 0)
+            {
+                sum += Math.Abs((int)(x % Math.Pow(10, n) / Math.Pow(10, n-1)));
+                n = n - 1;
+            }
+            Console.WriteLine("Sum of cifers = " + (int)sum);
+            Console.ReadLine();
+        }
+```
+*********
