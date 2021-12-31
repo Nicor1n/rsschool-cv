@@ -43,5 +43,7 @@ static void Main(string[] args)
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 * Inter Education School of foreign languages
 
-
+### Languages:
+* Russian
+* English
 
